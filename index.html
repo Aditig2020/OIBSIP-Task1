@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Landing Page</title>
+
+    <link rel="stylesheet" href="./styles/main.css">
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(195, 75%, 47%);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="section--header">
+      <nav class="navbar">
+        <div class="container">
+          <a href="#" class="navbar--logo"
+            <head><b>Blogify</b></head>
+          </a>
+          <img src="./images/icon-hamburger.svg" alt="Hamburger Icon" id="hamburger" class="navbar--hamburger">
+          <img src="./images/icon-close.svg" alt="Close Icon" id="close-icon" class="navbar--hamburger hidden">
+
+          <div class="backdrop hidden"></div>
+          <div class="mobile-menu hidden">
+            <ul class="mobile-menu--links__main">
+              <li class="mobile-menu--links__main--link"><a href="#" class="mobile-menu--links__main--link__a">Product</a> <ul class="mobile-menu--links__main--sublinks hidden">
+                <li class="mobile-menu--links__main--sublinks__li"><a href="#">Overview</a></li>
+                <li class="mobile-menu--links__main--sublinks__li"><a href="#">Pricing</a></li>
+                <li class="mobile-menu--links__main--sublinks__li"><a href="#">Marketplace</a></li>
+                <li class="mobile-menu--links__main--sublinks__li"><a href="#">Features</a></li>
+                <li class="mobile-menu--links__main--sublinks__li"><a href="#">Integrations</a></li>
+              </ul></li>
+              <li class="mobile-menu--links__main--link"><a href="#" class="mobile-menu--links__main--link__a">Company</a> <ul class="mobile-menu--links__main--sublinks hidden">
+                <li class="mobile-menu--links__main--sublinks__li"><a href="#">About</a></li>
+                <li class="mobile-menu--links__main--sublinks__li"><a href="#">Team</a></li>
+                <li class="mobile-menu--links__main--sublinks__li"><a href="#">Blog</a></li>
+                <li class="mobile-menu--links__main--sublinks__li"><a href="#">Careers</a></li>
+              </ul></li>
+              <li class="mobile-menu--links__main--link "><a href="#" class="mobile-menu--links__main--link__a">Connect</a> <ul class="mobile-menu--links__main--sublinks hidden">
+                <li class="mobile-menu--links__main--sublinks__li"><a href="#">Contact</a></li>
+                <li class="mobile-menu--links__main--sublinks__li"><a href="#">Newsletter</a></li>
+                <li class="mobile-menu--links__main--sublinks__li"><a href="#">Linkedin</a></li>
+              </ul></li>
+              
+            </ul>
+            <ul class="mobile-menu--links__secondary">
+              <li class="mobile-menu--links__secondary--link"><a href="#" class="mobile-menu--links__secondary--link__a">Login</a></li>
+              <li class="mobile-menu--links__secondary--link"><a href="#" class="mobile-menu--links__secondary--link__a btn--cta btn--cta__primary">Sign Up</a></li>
+            </ul>
+          </div>
+
+          <div class="navbar--links">
+            <ul class="navbar--links__main">
+              <li class="navbar--links__main--item">
+                <a href="/product" class="navbar--links__main--item__link">Product</a>
+                <div class="sublinks-container">
+                  <div class="dummy"></div>
+                  <ul class="navbar--links__main--item__sublinks hidden">
+                    <li class="navbar--links__main--item__sublinks--li"><a href="#">Overview</a></li>
+                    <li class="navbar--links__main--item__sublinks--li"><a href="#">Pricing</a></li>
+                    <li class="navbar--links__main--item__sublinks--li"><a href="#">Marketplace</a></li>
+                    <li class="navbar--links__main--item__sublinks--li"><a href="#">Features</a></li>
+                    <li class="navbar--links__main--item__sublinks--li"><a href="#">Integrations</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="navbar--links__main--item">
+                <a href="#" class="navbar--links__main--item__link">Company</a>
+                <div class="sublinks-container">
+                  <div class="dummy"></div>
+                  <ul class="navbar--links__main--item__sublinks hidden">
+                    <li class="navbar--links__main--item__sublinks--li"><a href="#">About</a></li>
+                    <li class="navbar--links__main--item__sublinks--li"><a href="#">Team</a></li>
+                    <li class="navbar--links__main--item__sublinks--li"><a href="#">Blog</a></li>
+                    <li class="navbar--links__main--item__sublinks--li"><a href="#">Careers</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="navbar--links__main--item">
+                <a href="#" class="navbar--links__main--item__link">Connect</a>
+                <div class="sublinks-container">
+                  <div class="dummy"></div>
+                  <ul class="navbar--links__main--item__sublinks hidden">
+                    <li class="navbar--links__main--item__sublinks--li"><a href="#">Contact</a></li>
+                    <li class="navbar--links__main--item__sublinks--li"><a href="#">Newsletter</a></li>
+                    <li class="navbar--links__main--item__sublinks--li"><a href="#">Linkedin</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <ul class="navbar--links__secondary">
+              <li class="navbar--links__secondary--item">
+                <a href="#" class="navbar--links__secondary--item__link">Login</a>
+              </li>
+              <li class="navbar--links__secondary--item">
+                <a
+                  href="#"
+                  class="
+                    navbar--links__secondary--item__link
+                    btn--cta btn--cta__primary
+                  "
+                  >Sign Up</a
+                >
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </nav>
+
+      <div class="container margin-container-7rem">
+        <div class="section--header__hero-text">
+          <h1 class="section--header__hero-text--heading">
+            A modern publishing platform
+          </h1>
+          <p class="section--header__hero-text--subheading">
+            Grow your audience and build your online brand
+          </p>
+          <div class="btn--flex">
+            <a href="#" class="btn--cta btn--cta__primary">Start for Free</a>
+            <a href="#" class="btn--cta btn--cta__secondary">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section--intro">
+      <h2 class="section--intro__heading--secondary heading--secondary">
+        Designed for the future
+      </h2>
+      <div class="container">
+        <div class="section--intro__left section--left">
+          <h3 class="section--intro__left--heading--tertiary heading--tertiary">
+            Introducing an extensible editor
+          </h3>
+          <p class="section--intro__left--paragraph paragraph--general">
+            Blogify features an exceedingly intuitive interface which lets you
+            focus on one thing: creating content. The editor supports management
+            of multiple blogs and allows easy manipulation of embeds such as
+            images, videos, and Markdown. Extensibility with plugins and themes
+            provide easy ways to add functionality or change the looks of a
+            blog.
+          </p>
+          <h3 class="section--intro__left--heading--tertiary heading--tertiary">
+            Robust content management
+          </h3>
+          <p class="section--intro__left--paragraph paragraph--general">
+            Flexible content management enables users to easily move through
+            posts. Increase the usability of your blog by adding customized
+            categories, sections, format, or flow. With this functionality,
+            you’re in full control.
+          </p>
+        </div>
+        <div class="section--intro__right section--right max-width-illustration">
+          <img
+            src="./images/illustration-editor-mobile.svg"
+            alt="Desktop Illustration"
+            class="section--intro__right--img-mobile"
+          />
+          <img
+            src="./images/illustration-editor-desktop.svg"
+            alt="Desktop Illustration"
+            class="section--intro__right--img-desktop"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="section--infrastructure">
+      
+      <div class="">
+        <div class="section--infrastructure__left section--left max-width-illustration">
+          <img
+            src=""
+            alt="Phones Illustration"
+            class="section--infrastructure__left--img"
+          />
+        </div>
+        <div class="section--infrastructure__right section--right">
+          <h2
+            class="
+              section--infrastructure__right--heading--secondary
+              heading--secondary
+            "
+          >
+            State of the Art Infrastructure
+          </h2>
+          <p
+            class="section--infrastructure__right--paragraph paragraph--general"
+          >
+                     <center>With reliability and speed in mind, worldwide data centers provide
+                      the backbone for ultra-fast connectivity. This ensures your site
+                      will load instantly, no matter where your readers are, keeping your
+                     site competitive.</center> 
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section--features">
+      <div class="container">
+        <div class="section--features__left max-width-illustration">
+          <img
+            src="./images/illustration-laptop-desktop.svg"
+            alt="Laptop Illustration"
+            class="section--features__left--img--desktop"
+          />
+          <img
+            src="./images/illustration-laptop-mobile.svg"
+            alt="Laptop Illustration"
+            class="section--features__left--img--mobile"
+          />
+        </div>
+        <div class="section--features__right">
+          <h3 class="section--features__right--heading heading--tertiary">
+            Free, Open, Simple
+          </h3>
+          <p class="section--features__right--paragraph paragraph--general">
+            Blogify is a free and open source application backed by a large
+            community of helpful developers. It supports features such as code
+            syntax highlighting, RSS feeds, social media integration,
+            third-party commenting tools, and works seamlessly with Google
+            Analytics. The architecture is clean and is relatively easy to
+            learn.
+          </p>
+          <h3 class="section--features__right--heading heading--tertiary">
+            Powerful tooling
+          </h3>
+          <p class="section--features__right--paragraph paragraph--general">
+            Batteries included. We built a simple and straightforward CLI tool
+            that makes customization and deployment a breeze, but capable of
+            producing even the most complicated sites.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer class="section--footer">
+      <div class="container">
+        <a href="#" class="section--footer__link">
+          <img src="" alt="" class="section--footer__link__img" />
+        </a>
+        <ul class="section--footer__ul">
+          <li class="section--footer__ul--li li--bold">
+            <a href="" class="section--footer__ul--li">Product</a>
+          </li>
+          <li class="section--footer__ul--li">
+            <a href="" class="section--footer__ul--li">Overview</a>
+          </li>
+          <li class="section--footer__ul--li">
+            <a href="" class="section--footer__ul--li">Pricing</a>
+          </li>
+          <li class="section--footer__ul--li">
+            <a href="" class="section--footer__ul--li">Marketplace</a>
+          </li>
+          <li class="section--footer__ul--li">
+            <a href="" class="section--footer__ul--li">Features</a>
+          </li>
+          <li class="section--footer__ul--li">
+            <a href="" class="section--footer__ul--li">Integrations</a>
+          </li>
+        </ul>
+        <ul class="section--footer__ul">
+          <li class="section--footer__ul--li li--bold">
+            <a href="" class="section--footer__ul--li">Company</a>
+          </li>
+          <li class="section--footer__ul--li">
+            <a href="" class="section--footer__ul--li">About</a>
+          </li>
+          <li class="section--footer__ul--li">
+            <a href="" class="section--footer__ul--li">Team</a>
+          </li>
+          <li class="section--footer__ul--li">
+            <a href="" class="section--footer__ul--li">Blog</a>
+          </li>
+          <li class="section--footer__ul--li">
+            <a href="" class="section--footer__ul--li">Careers</a>
+          </li>
+        </ul>
+        <ul class="section--footer__ul">
+          <li class="section--footer__ul--li li--bold">
+            <a href="" class="section--footer__ul--li">Connect</a>
+          </li>
+          <li class="section--footer__ul--li">
+            <a href="" class="section--footer__ul--li">Contact</a>
+          </li>
+          <li class="section--footer__ul--li">
+            <a href="" class="section--footer__ul--li">Newsletter</a>
+          </li>
+          <li class="section--footer__ul--li">
+            <a href="" class="section--footer__ul--li">Linkedin</a>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <div class="attribution">
+      © 2023 
+      <a href="idex.html" target="_blank"
+        >Priyanshika Sharma</a>|All rights reserved.
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
