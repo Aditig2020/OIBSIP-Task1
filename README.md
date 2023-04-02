@@ -7,6 +7,7 @@ Landing Page<br>
 <ul>
 <li>HTML</li>
 <li>CSS</li>
+<li>Javascript</li>
 </ul>
 <br>
 Project deeployment link: <a href='https://aditig2020.github.io/OIBSIP-Task1/'>Click Here</a>
