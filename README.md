@@ -10,4 +10,4 @@ Landing Page<br>
 <li>Javascript</li>
 </ul>
 <br>
-Project deeployment link: <a href='https://aditig2020.github.io/OIBSIP-Task1/'>Click Here</a>
+Project deployment link: <a href='https://aditig2020.github.io/OIBSIP-Task1/'>Click Here</a>
